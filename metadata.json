@@ -1,0 +1,6 @@
+{
+  "name": "Pixel Pop Defense",
+  "description": "A pixelated Bloons-style tower defense stage with one placable defender and one wave of ten enemies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Base typography and crisp pixel-art rendering utilities */
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #162319;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+.font-pixel {
+  font-family: "Pixelify Sans", monospace;
+}
+
+.font-mono-tabular {
+  font-family: "JetBrains Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Keeps scaled pixel-art canvas and sprite previews razor sharp */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
